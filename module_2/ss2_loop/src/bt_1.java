@@ -34,14 +34,28 @@ public class bt_1 {
             }
             System.out.print("\n");
         }
-        System.out.println("Nhap do dai tam giac can");
+ /*        System.out.println("Nhap do dai tam giac can");
         int tgCan = scanner.nextInt();
         for (int i = 0; i < tgCan; i++) {
-            for (int j = 0 ; j <= 2 * tgCan - 1; j ++){
-                System.out.print("*");
+            for (int j = 0; j < 2 * tgCan + 1; j++) {
+                if (j >= tgCan - i - 1 && j <= tgCan + i - 1) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("\n");
+                }
             }
-            System.out.println("\n");
-        }
+            System.out.print(" ");
+        }*/
 
     }
+
 }
+
+
+
+
+
+
+
+
+
