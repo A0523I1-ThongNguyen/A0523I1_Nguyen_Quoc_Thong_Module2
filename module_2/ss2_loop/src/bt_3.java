@@ -24,7 +24,3 @@ public class bt_3 {
 
     }
 }
-
-
-
-

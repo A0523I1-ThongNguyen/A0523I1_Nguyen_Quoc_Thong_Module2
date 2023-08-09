@@ -2,28 +2,33 @@ import java.util.Scanner;
 
 public class bt_2 {
     public static void main(String[] args) {
+
+
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Nhap so luong SNT can in");
-        int numbers = Integer.parseInt(scanner.nextLine());
+
+        System.out.println(" 20 So nguyen to dau tien : ");
         int count = 0;
-        int N = 2;
-        while (count < numbers) {
+
+
+        while (count != 20) {
             boolean flag = true;
-            if (N >= 2) {
-                for (int i = 2; i < N; i++) {
-                    if (N % i == 0) {
+            if (count >= 2) {
+                for (int i = 2; i < count; i++) {
+                    if (count % i == 0) {
                         flag = false;
                     }
                 }
                 if (flag == true) {
-                    System.out.println(N + " ");
-                    count++;
+                    System.out.println(count + " ");
                 }
-                N++;
-            } //N++
-
+            }count++;
         }
 
-
+        }
     }
-}
+
+
+
+
+
+
