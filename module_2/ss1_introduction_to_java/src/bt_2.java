@@ -18,8 +18,8 @@ public class bt_2 {
                 case 2:
                     stringTrum = "two";
                     break;
-                case 3:
-                    stringTrum = "three";
+                case 3: stringTrum = "three";
+                    break;
                 case 4:
                     stringTrum = "four";
                     break;
@@ -90,22 +90,22 @@ public class bt_2 {
                     stringHangChuc = "thirty";
                     break;
                 case 4:
-                    stringHangChuc = "thirty";
+                    stringHangChuc = "forty";
                     break;
                 case 5:
-                    stringHangChuc = "thirty";
+                    stringHangChuc = "fifty";
                     break;
                 case 6:
-                    stringHangChuc = "thirty";
+                    stringHangChuc = "sixty";
                     break;
                 case 7:
-                    stringHangChuc = "thirty";
+                    stringHangChuc = "seventy";
                     break;
                 case 8:
-                    stringHangChuc = "thirty";
+                    stringHangChuc = "eighty";
                     break;
                 case 9:
-                    stringHangChuc = "thirty";
+                    stringHangChuc = "ninety";
                     break;
             }
             switch (hangDonVi) {
@@ -176,70 +176,70 @@ public class bt_2 {
                     stringHangTram = "nine hundred";
                     break;
 
+            }
 
-            }
-            switch (hangChuc) {
-                case 2:
-                    stringHangChuc = "twenty";
-                    break;
-                case 3:
-                    stringHangChuc = "thirty";
-                    break;
-                case 4:
-                    stringHangChuc = "thirty";
-                    break;
-                case 5:
-                    stringHangChuc = "thirty";
-                    break;
-                case 6:
-                    stringHangChuc = "thirty";
-                    break;
-                case 7:
-                    stringHangChuc = "thirty";
-                    break;
-                case 8:
-                    stringHangChuc = "thirty";
-                    break;
-                case 9:
-                    stringHangChuc = "thirty";
-                    break;
-            }
-            switch (hangDonVi) {
-                case 1:
-                    stringHangDonVi = "one";
-                    break;
-                case 2:
-                    stringHangDonVi = "two";
-                    break;
-                case 3:
-                    stringHangDonVi = "three";
-                    break;
-                case 4:
-                    stringHangDonVi = "four";
-                    break;
-                case 5:
-                    stringHangDonVi = "five";
-                    break;
-                case 6:
-                    stringHangDonVi = "six";
-                    break;
-                case 7:
-                    stringHangDonVi = "seven";
-                    break;
-                case 8:
-                    stringHangDonVi = "eight";
-                    break;
-                case 9:
-                    stringHangDonVi = "nine";
-                    break;
+                switch (hangChuc) {
+                    case 2:
+                        stringHangChuc = "twenty";
+                        break;
+                    case 3:
+                        stringHangChuc = "thirty";
+                        break;
+                    case 4:
+                        stringHangChuc = "thirty";
+                        break;
+                    case 5:
+                        stringHangChuc = "thirty";
+                        break;
+                    case 6:
+                        stringHangChuc = "thirty";
+                        break;
+                    case 7:
+                        stringHangChuc = "thirty";
+                        break;
+                    case 8:
+                        stringHangChuc = "thirty";
+                        break;
+                    case 9:
+                        stringHangChuc = "thirty";
+                        break;
+                }
+                switch (hangDonVi) {
+                    case 1:
+                        stringHangDonVi = "one";
+                        break;
+                    case 2:
+                        stringHangDonVi = "two";
+                        break;
+                    case 3:
+                        stringHangDonVi = "three";
+                        break;
+                    case 4:
+                        stringHangDonVi = "four";
+                        break;
+                    case 5:
+                        stringHangDonVi = "five";
+                        break;
+                    case 6:
+                        stringHangDonVi = "six";
+                        break;
+                    case 7:
+                        stringHangDonVi = "seven";
+                        break;
+                    case 8:
+                        stringHangDonVi = "eight";
+                        break;
+                    case 9:
+                        stringHangDonVi = "nine";
+                        break;
 
-            }
-            stringTrum = stringHangTram + " and " + stringHangChuc + " " +stringHangDonVi;
+                }
+                stringTrum = stringHangTram + " and " + stringHangChuc + " " + stringHangDonVi;
 
         }else{
             stringTrum = "out of ability";
         }
-        System.out.println(number + " Tran : " +stringTrum);
+        System.out.println(number + ": Translate : " +stringTrum);
     }
 }
 
