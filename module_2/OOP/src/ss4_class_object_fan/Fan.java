@@ -1,8 +1,6 @@
 package ss4_class_object_fan;
 
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Fan {
     public String name = "";
     private static final int SLOW = 1;

@@ -7,7 +7,7 @@ public class Car {
     private String mauSac = "";
     private double giaXe = 0;
     private double giaXe1 = 0;
-    private double giaXe2 = 0;
+    private double testgiaXe2 = 0;
     private double giaXe3 = 0;
 
 

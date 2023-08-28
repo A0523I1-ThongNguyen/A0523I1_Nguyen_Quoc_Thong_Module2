@@ -1,5 +1,7 @@
 package ss4_class_object_fan;
 
+import ss4_class_object_fan.Fan;
+
 public class Main {
     public static void main(String[] args) {
         Fan senko = new Fan("Senko", 3, true, 3, "Red");

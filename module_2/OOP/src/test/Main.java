@@ -1,6 +1,6 @@
 package test;
 
-import ss5_access_modifier.Access_Modifier;
+import ss5_access_modifier.AccessModifier;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Main {
         xpander.run();
         System.out.println(xpander);
 
-        Access_Modifier hi = new Access_Modifier();
+        AccessModifier hi = new AccessModifier();
 
 
 //        Car accent = new Car(false);

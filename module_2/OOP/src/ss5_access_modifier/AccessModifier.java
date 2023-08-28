@@ -1,15 +1,16 @@
 package ss5_access_modifier;
 
-public class Access_Modifier {
+
+public class AccessModifier {
 
     private double radius = 1.0;
     private String color = "red";
 
-    public Access_Modifier() {
+    public AccessModifier() {
 
     }
 
-    public Access_Modifier(double radius) {
+    public AccessModifier(double radius) {
         this.radius = radius;
     }
 
@@ -21,8 +22,8 @@ public class Access_Modifier {
         return radius;
     }
 
-    public String getArea() {
-        return this.color;
+    public double getArea() {
+        return radius * radius * Math.PI;
     }
 
 
