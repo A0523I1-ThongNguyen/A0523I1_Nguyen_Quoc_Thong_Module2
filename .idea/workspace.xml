@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97288697-490b-4041-a2d1-6f28116daa6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/check/ATMApp/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/ATMApp/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/animal/a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/animal/model/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/animal/repositori/ITigerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check/animal/repositori/TigerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss7_interface_colorable/Tamgiac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_MVC/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_MVC/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_MVC/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_MVC/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_MVC/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_MVC/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_MVC/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_mvc_product_car/controller/CarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_mvc_product_car/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_mvc_product_car/repository/CarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_mvc_product_car/repository/ICarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_mvc_product_car/service/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_mvc_product_car/service/ICarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_mvc_product_car/view/view.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_2/OOP/src/ss8_mvc_product_car/zzzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2/OOP/OOP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2/OOP/src/ss7_abtract_class_interface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module_2/OOP/src/ss7_abtract_class_interface/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2/OOP/src/ss7_interface_colorable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module_2/OOP/src/ss7_interface_colorable/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2/OOP/src/ss7_interface_colorable/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/module_2/OOP/src/ss7_interface_colorable/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2/out/production/OOP/ss7_abtract_class_interface/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/module_2/out/production/OOP/ss7_abtract_class_interface/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2/out/production/OOP/ss7_interface_colorable/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/module_2/out/production/OOP/ss7_interface_colorable/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2/ss1_introduction_to_java/ss1_introduction_to_java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2/ss2_loop/ss2_loop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2/ss3_array/ss3_array.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Uk2vwLO6dxLXFUFMCtKQMvY3wS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/A0523I1_Nguyen_Quoc_Thong_Module2/module_2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="A0523I1_Nguyen_Quoc_Thong_Module2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="A0523I1_Nguyen_Quoc_Thong_Module2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97288697-490b-4041-a2d1-6f28116daa6d" name="Changes" comment="" />
+      <created>1693469491255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693469491255</updated>
+      <workItem from="1693469492359" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

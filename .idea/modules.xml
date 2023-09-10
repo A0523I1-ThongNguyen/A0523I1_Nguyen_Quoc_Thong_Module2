@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/A0523I1_Nguyen_Quoc_Thong_Module2.iml" filepath="$PROJECT_DIR$/A0523I1_Nguyen_Quoc_Thong_Module2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/OOP/OOP.iml" filepath="$PROJECT_DIR$/module_2/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/ss1_introduction_to_java/ss1_introduction_to_java.iml" filepath="$PROJECT_DIR$/module_2/ss1_introduction_to_java/ss1_introduction_to_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/ss2_loop/ss2_loop.iml" filepath="$PROJECT_DIR$/module_2/ss2_loop/ss2_loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_2/ss3_array/ss3_array.iml" filepath="$PROJECT_DIR$/module_2/ss3_array/ss3_array.iml" />
+    </modules>
+  </component>
+</project>

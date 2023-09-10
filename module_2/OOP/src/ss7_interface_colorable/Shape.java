@@ -1,7 +1,7 @@
 package ss7_interface_colorable;
 
 public  abstract class Shape   {
-    private String color ="red";
+    private  String color ="red";
     public boolean flag = true;
 
     public Shape(){

@@ -5,10 +5,12 @@ public class Main {
 //        IResizeable[] test = new IResizeable[3];
 //        test[0] = new Circle();
 
-        Circle circle = new Circle();
+        Circle circle = new Circle(4);
         circle.setRadius(10);
-        circle.resize(3.5);
+        circle.resize(2);
+        circle.getArea();
 
+        System.out.println(circle.getArea());
         Square square = new Square();
         square.setEdge(4);
         square.resize(7);

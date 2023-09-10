@@ -1,49 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9d051552-dcdb-4c64-998e-150e897f2465" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../check/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../check/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../check/Point3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/ss6_ke_thua_2d_3d/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/ss6_ke_thua_2d_3d/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/ss6_ke_thua_2d_3d/Point3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/ss6_ke_thua_circle_cylinder/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/ss6_ke_thua_circle_cylinder/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/ss6_ke_thua_point/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/ss6_ke_thua_point/MoveablePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/ss6_ke_thua_point/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/test_thua_ke/Avante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/test_thua_ke/Cruze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/test_thua_ke/Elantra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/test_thua_ke/Lacetti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/test_thua_ke/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss2_loop/src/max.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/max.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test2chieu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../check/ThongCrushAnh.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../check/thuake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../check/out/production/check/Quat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../check/out/production/check/Quat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../check/out/production/check/ThongCrushAnh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/src/ss4_class_object_fan/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/src/ss4_class_object_fan/Fan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/src/ss4_class_object_fan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/src/ss4_class_object_fan/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/src/ss5_access_modifier/Access_Modifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/src/ss5_access_modifier/AccessModifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/src/ss5_access_modifier/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/src/ss5_access_modifier/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/src/ss5_lop_chi_ghi/Class_Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/src/ss5_lop_chi_ghi/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/src/ss5_lop_chi_ghi/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/src/ss5_lop_chi_ghi/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/src/test/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/src/test/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/src/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/src/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/ss4_class_object_fan/Fan.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/OOP/ss4_class_object_fan/Fan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/ss4_class_object_fan/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/OOP/ss4_class_object_fan/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/ss5_access_modifier/Access_Modifier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/ss5_access_modifier/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/OOP/ss5_access_modifier/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/ss5_lop_chi_ghi/Class_Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/ss5_lop_chi_ghi/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/OOP/ss5_lop_chi_ghi/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/test/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/OOP/test/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/OOP/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss2_loop/out/production/ss2_loop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2_loop/out/production/ss2_loop/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss2_loop/out/production/ss2_loop/save.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2_loop/out/production/ss2_loop/save.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss2_loop/out/production/ss2_loop/thu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2_loop/out/production/ss2_loop/thu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/ATMApp/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/ATMApp/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/TestDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/animal/Service/ITigerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/animal/Service/TigerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/animal/a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/animal/controller/TigerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/animal/model/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/animal/repositori/ITigerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/animal/repositori/TigerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/animal/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/crush/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/crush/controller/CrushController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/crush/model/Crush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/crush/repository/CrushRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../check/crush/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss10_dsa/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss10_dsa/TestMyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss7_interface_colorable/Tamgiac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_MVC/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_MVC/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_MVC/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_MVC/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_MVC/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_MVC/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_MVC/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_mvc_product_car/controller/CarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_mvc_product_car/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_mvc_product_car/repository/CarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_mvc_product_car/repository/ICarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_mvc_product_car/service/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_mvc_product_car/service/ICarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_mvc_product_car/view/view.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/ss8_mvc_product_car/zzzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../check/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../check/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../check/TestAnimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../check/out/production/check/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../check/out/production/check/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../check/out/production/check/TestAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ss7_abtract_class_interface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/src/ss7_abtract_class_interface/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ss7_interface_colorable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/src/ss7_interface_colorable/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/src/ss7_interface_colorable/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/src/ss7_interface_colorable/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/OOP/ss7_abtract_class_interface/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/OOP/ss7_abtract_class_interface/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/OOP/ss7_interface_colorable/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/OOP/ss7_interface_colorable/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,15 +74,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/A0523I1_Nguyen_Quoc_Thong_Module2/module_2/ss1_introduction_to_java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/A0523I1_Nguyen_Quoc_Thong_Module2/module_2/ss3_array&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,6 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1692948360659</updated>
       <workItem from="1692948361754" duration="39000" />
+      <workItem from="1693985470997" duration="1765000" />
+      <workItem from="1694007713194" duration="1738000" />
     </task>
     <servers />
   </component>
