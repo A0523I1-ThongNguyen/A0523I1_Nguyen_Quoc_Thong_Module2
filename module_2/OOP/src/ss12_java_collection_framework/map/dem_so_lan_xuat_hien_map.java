@@ -15,7 +15,7 @@ public class dem_so_lan_xuat_hien_map {
         String[] newChuoi = chuoi.split("");
 
 
-        for (String s : newChuoi){ 
+        for (String s : newChuoi){
             if (testMap.containsKey(s)){ // check s ton tai trong Map k
             Integer value = testMap.get(s);
                 value++;
