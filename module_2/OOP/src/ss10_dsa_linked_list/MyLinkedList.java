@@ -4,7 +4,7 @@ import ss10_dsa_.MyList;
 
 import java.util.Objects;
 
-public class MyLinkedList {
+public class MyLinkedList<T> {
     private Node head;
     private int numNodes;
 
@@ -25,6 +25,9 @@ public class MyLinkedList {
     }
 
     public void add(int index, Object data) {
+        if (index > 0){
+            throw new IndexOutOfBoundsException("Vị trí chèn cần lớn hơn 0");
+        }
         Node temp = head;
         Node holder;
         for (int i = 0; i < index - 1 && temp.next != null; i++) {

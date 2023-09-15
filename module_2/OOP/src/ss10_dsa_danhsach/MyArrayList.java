@@ -24,7 +24,7 @@ public class MyArrayList<T> {
         if (size == elements.length) { // nếu kích cỡ mảng  = số phần tử mảng thì gọi hàm capacity
             capacity();
         }
-        elements[size++] = e; // gắn e vào size ?
+        elements[size++] = e; // gan phần tử "e" vào mảng "elements" tại vị trí "size" và sau đó tăng giá trị của "size" lên 1. Mục đích của việc tăng giá trị "size" là để lưu trữ số lượng phần tử trong mảng.
         return true;
     }
 
@@ -34,17 +34,17 @@ public class MyArrayList<T> {
         }
     }
 
-    public void add(int index, T element) {
+    public void add(int index, T phanTu) {
         if (index >= size || index < 0) {
             throw new IndexOutOfBoundsException("Index : " + index + " Size: " + index);
         }
         if (size == elements.length) {
             capacity();
         }
-        for (int i = size; index < i; i--) {
+        for (int i = size; index < i; i--) {//di chuyển tất cả các phần tử trong mảng "elements" từ vị trí "size" đến vị trí "index" sang phải một vị trí. Cụ thể, giá trị của phần tử tại vị trí "i-1" sẽ được gán cho phần tử tại vị trí "i". Điều này giúp dịch chuyển các phần tử để tạo chỗ trống để chèn phần tử mới vào vị trí "index".
             elements[i] = elements[i-1];
         }
-        elements[index] = element;
+        elements[index] = phanTu;// gán giá trị của biến "phanTu" vào mảng "elements" tại vị trí "index". Nghĩa là, nó thay thế giá trị hiện tại của phần tử tại vị trí "index
         size++;
     }
 

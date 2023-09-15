@@ -6,9 +6,10 @@ public class TestMyLinkedList {
         test.addFirst(1);
         test.addFirst(2);
         test.addFirst(3);
+        test.add(0,5);//
+        test.add(3,7);
+//        test.add(1,9);
 
-        test.add(1,9);
-        test.add(0,5);
         test.printList();
     }
 }

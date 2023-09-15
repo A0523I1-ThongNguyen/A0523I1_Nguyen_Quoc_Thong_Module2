@@ -31,7 +31,7 @@ public class MyList<T> {
         if (kichCoChua == thanhPhanChua.length) {//tuong trung hay ap dung vao dau?
             kichThuocDamBao();
         }
-        thanhPhanChua[kichCoChua++] = e; // khi thêm phần tử e vào thì nó dc truyền vào thành phần thứ[kích cỡ ++]. vì chưa biết nó thêm vô vị trí nào nên [size++]
+        thanhPhanChua[kichCoChua++] = e; //có nghĩa là gán giá trị của biến `e` vào phần tử của mảng `elements` tại vị trí `size`, sau đó tăng giá trị của biến `size` lên 1.
         return true;
     }
 
