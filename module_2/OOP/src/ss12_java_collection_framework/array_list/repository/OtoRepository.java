@@ -8,9 +8,9 @@ public class OtoRepository implements IOtoRepository {
     // Queue danhSachOto được khởi tạo với kiểu LinkedList, tức là danh sách được triển khai dựa trên danh sách liên kết.
     // Vì vậy, danhSachOto sẽ chứa các đối tượng Oto theo thứ tự mà chúng được thêm vào.
     private static LinkedList<Oto> danhSachOto = new LinkedList<>();//biến danhSachOto sẽ được sử dụng để lưu trữ một danh sách các đối tượng kiểu Oto dưới dạng hàng đợi(Queue).
-
+                                                //"new LinkedList<>()" :tạo một đối tượng LinkedList mới
     static {
-        danhSachOto.add(new Oto("Vios", "Sedan", "Hang B", 560));
+        danhSachOto.add(new Oto("Vios", "Sedan", "Hang B", 560)); //why bỏ new LinkedList<>() vẫn k lỗi
         danhSachOto.add(new Oto("Outlander", "MVP", "MVP-C", 920));
         danhSachOto.add(new Oto("K3", "Sedan", "Hang C", 770));
     }
@@ -62,7 +62,7 @@ public class OtoRepository implements IOtoRepository {
     }
 
     @Override
-    public void sortOtobyprice() {
+    public void sortOtoByPrice() {
         Collections.sort(danhSachOto, new Comparator<Oto>() {//du lieu sap xep AND thuat toan sap xep Comparator
             @Override
             public int compare(Oto o1, Oto o2) {

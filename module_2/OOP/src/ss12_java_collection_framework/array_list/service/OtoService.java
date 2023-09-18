@@ -67,7 +67,7 @@ public class OtoService implements IOtoService{
 
     @Override
     public void sortByPrice() {
-        iOtoRepository.sortOtobyprice();
+        iOtoRepository.sortOtoByPrice();
         iOtoRepository.displayOto();
     }
 
