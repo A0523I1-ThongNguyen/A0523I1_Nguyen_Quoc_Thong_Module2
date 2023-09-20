@@ -7,16 +7,19 @@ public class Dau_Ngoac_Use_Stack {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean flag = true;
-        do {
+        while (true) {
             Dau_Ngoac_Use_Stack dauNgoac = new Dau_Ngoac_Use_Stack();
             System.out.println("Nhap bieu thuc check dau ngoac");
             String bt = scanner.nextLine();
             if (dauNgoac.check(bt)) {
                 System.out.println("Well");
-            } else {
+            } else{
                 System.out.println("????");
             }
-        }while (flag);
+//            char input = scanner.next().charAt(0);
+//            if (Character.isLetter(input)) {
+//                break; }
+        }
     }
 
     public boolean check(String str) {

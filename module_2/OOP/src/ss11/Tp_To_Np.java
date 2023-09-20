@@ -9,12 +9,13 @@ public class Tp_To_Np {
         Stack<Integer> number = new Stack<>();
         System.out.print("Nhập số thập phân: ");
         int n = Integer.parseInt(sc.nextLine());
-        while (n != 0) {
-            number.push(n % 2);
-            n /= 2;
+        String nhiPhan = "";
+        while (n>0){
+            nhiPhan= (n%2) + nhiPhan;
+            n = n /2;
+
+
         }
-        while (!number.isEmpty()) {
-            System.out.print(number.pop());
-        }
+        System.out.println("HE nhi phan: " +nhiPhan);
     }
 }
