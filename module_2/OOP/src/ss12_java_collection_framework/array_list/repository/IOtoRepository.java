@@ -12,7 +12,7 @@ public interface IOtoRepository {
      boolean checkEmptyOto();
      int sizeOto();
      void removeAllCar();
-     void deleteOto(Oto name); // kiểu dữ liệu là ô tô bởi vì muốn xóa hết 1 chiếc ô tô
+     void deleteOto(Oto   name); // kiểu dữ liệu là ô tô bởi vì muốn xóa hết 1 chiếc ô tô
      void searchOto(String name);// kiểu String vì tìm tên sẽ ra hết thông tin xe,kiểu dữ liệu String đơn giản là chỉ cần tìm tên ,mà tên là 1 chuỗi String nên tìm = String sẽ in ra cả thông tin xe
      void sortOtoByPrice();
 

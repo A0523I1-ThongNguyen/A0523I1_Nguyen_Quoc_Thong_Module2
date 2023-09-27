@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class OtoController {
 
-    public static void Show() {
+    public static void showOto() {
         IOtoService iOtoService = new OtoService();
         Scanner scanner = new Scanner(System.in);
         boolean flag = true;
@@ -57,8 +57,10 @@ public class OtoController {
                     System.out.println("Sắp xếp Giá Oto theo chiều tăng or giảm dần");
                     iOtoService.sortByPrice();
                 case 9:
-                    System.out.println("Edit");
+                      System.out.println("Edit");
                     iOtoService.edit();
+                default:
+                    System.out.println("Chon lai");
             }
 
 

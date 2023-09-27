@@ -5,7 +5,7 @@ import ss8_mvc_product_car.model.Car;
 import java.util.Objects;
 import java.util.Scanner;
 
-public class CarRepository implements ICarRepository {
+public class    CarRepository implements ICarRepository {
     Scanner scanner = new Scanner(System.in);
     private static Car[] cars = new Car[10]; // tao danh sach mang tu doi tuong model Car
 

@@ -25,14 +25,13 @@ public class Chen {
 //        chen.insertionSort(array);
 //        chen.showListArray(array);
     }
-
     public void insertionSort(int[] list) {
         for (int i = 1; i < list.length; i++) {
             int key = list[i];
             int j = i - 1;
             while (j >= 0 && list[j] > key) {
-                list[j + 1] = list[j];
-                j--;//Trong vòng lặp for thứ hai, biến j được sử dụng để điều khiển việc so sánh và di chuyển các phần tử trong mảng. Trong trường hợp này, chúng ta muốn so sánh giá trị của phần tử đang xét (key) với các phần tử trước nó (list[j]). Nếu giá trị key nhỏ hơn giá trị list[j] thì chúng ta cần di chuyển phần tử list[j] sang phải (tăng j) để tạo chỗ trống cho key được chèn vào đúng vị trí. Vì vậy, cần lặp j-- để di chuyển ngược từ vị trí hiện tại của i (được lưu trong j) về các phần tử trước đó trong mảng.
+                list[j + 1] = list[j]; //chỉ gán không mất
+                j--;//
             }
             list[j + 1] = key;
         }

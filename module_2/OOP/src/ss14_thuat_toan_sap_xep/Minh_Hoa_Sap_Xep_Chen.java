@@ -1,5 +1,6 @@
 package ss14_thuat_toan_sap_xep;
 
+import java.util.Arrays;
 import java.util.Scanner;
 public class Minh_Hoa_Sap_Xep_Chen {
         public static void main(String[] args) {
@@ -29,6 +30,7 @@ public class Minh_Hoa_Sap_Xep_Chen {
                 }
                 list[j + 1] = key;//gán giá trị của biến key vào vị trí hiện tại (vị trí của phần tử đang được xét)
             }
+
             System.out.print("List after sort: ");
             for (int j = 0; j < list.length; j++) {
                 System.out.print(list[j] + "\t");

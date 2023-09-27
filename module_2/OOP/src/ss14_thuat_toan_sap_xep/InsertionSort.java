@@ -24,7 +24,8 @@ public class InsertionSort {
             int j = i - 1;
             while (j>=0 && array[j] > key){ // pt truoc phai > pt hien tai(key)
                 array[j+1] = array[j]; // vi pt truoc > pt hien tai nên gán pt phía trước vào pt hiện tại([j+1]).tạo chỗ trống key chèn vô
-                j--;//Để tiếp tục tìm vị trí thích hợp cho phần tử tiếp theo trong mảng, giá trị của j cần được giảm đi 1 (j--). Điều này đảm bảo rằng vòng lặp while sẽ tiếp tục chạy từ vị trí trước đó (j - 1) để tiếp tục so sánh và chèn các phần tử còn lại.
+                j--;//di chuyển lên trên kiểm tra điều kiện so sánh
+                //Để tiếp tục tìm vị trí thích hợp cho phần tử tiếp theo trong mảng, giá trị của j cần được giảm đi 1 (j--). Điều này đảm bảo rằng vòng lặp while sẽ tiếp tục chạy từ vị trí trước đó (j - 1) để tiếp tục so sánh và chèn các phần tử còn lại.
             }
             array[j+1] = key;//gán giá trị của key vào vị trí sau vị trí hiện tại (list[j + 1] = key)
         }

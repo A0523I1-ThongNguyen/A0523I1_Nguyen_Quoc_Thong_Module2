@@ -7,16 +7,18 @@ import java.util.*;
 public class OtoRepository implements IOtoRepository {
     // Queue danhSachOto được khởi tạo với kiểu LinkedList, tức là danh sách được triển khai dựa trên danh sách liên kết.
     // Vì vậy, danhSachOto sẽ chứa các đối tượng Oto theo thứ tự mà chúng được thêm vào.
-    private static LinkedList<Oto> danhSachOto = new LinkedList<>();//biến danhSachOto sẽ được sử dụng để lưu trữ một danh sách các đối tượng kiểu Oto dưới dạng hàng đợi(Queue).
+    private static LinkedList   <Oto> danhSachOto = new LinkedList<>();//biến danhSachOto sẽ được sử dụng để lưu trữ một danh sách các đối tượng kiểu Oto dưới dạng hàng đợi(Queue).
                                                 //"new LinkedList<>()" :tạo một đối tượng LinkedList mới
     static {
         danhSachOto.add(new Oto("Vios", "Sedan", "Hang B", 560)); //why bỏ new LinkedList<>() vẫn k lỗi
         danhSachOto.add(new Oto("Outlander", "MVP", "MVP-C", 920));
         danhSachOto.add(new Oto("K3", "Sedan", "Hang C", 770));
+//        danhSachOto.add(1,new Oto("Elantra","Sedan","Hang C ", 750));
+//        danhSachOto.addFirst(new Oto("innova"));
     }
 
     @Override
-    public void addCar(Oto car) {
+    public void addCar(Oto car)  {
         this.danhSachOto.add(car);
     }
 
@@ -54,7 +56,6 @@ public class OtoRepository implements IOtoRepository {
             if (oto.getNameCar().equals(name)){
                 System.out.println(oto);
                 check = true;
-                break;
             }
         } if (!check) {
             System.out.println(name + " Khong co trong list");

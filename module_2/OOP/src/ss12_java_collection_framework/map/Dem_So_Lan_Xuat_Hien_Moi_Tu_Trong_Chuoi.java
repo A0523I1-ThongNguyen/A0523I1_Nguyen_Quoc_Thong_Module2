@@ -1,11 +1,10 @@
 package ss12_java_collection_framework.map;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-public class dem_so_lan_xuat_hien_map {
+public class Dem_So_Lan_Xuat_Hien_Moi_Tu_Trong_Chuoi {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

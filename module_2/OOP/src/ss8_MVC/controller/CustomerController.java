@@ -9,7 +9,7 @@ public class CustomerController {
     public static void showMenu() {
         ICustomerService customerService = new CustomerService();
         Scanner scanner = new Scanner(System.in);
-        boolean flag = true;
+        boolean flag = false;
         do {
             System.out.println("Chọn chức năng :");
             System.out.println("1.Display" +
