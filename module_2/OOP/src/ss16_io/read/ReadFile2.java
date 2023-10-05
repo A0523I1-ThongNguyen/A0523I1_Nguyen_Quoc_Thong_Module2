@@ -7,10 +7,10 @@ import java.util.ArrayList;
 
 public class ReadFile2 {
     static ArrayList<Nation> nationArrayList = new ArrayList<>();
-
+  private static final String FILE_PATH = "E:\\A0523I1_Nguyen_Quoc_Thong_Module2\\module_2\\OOP\\src\\ss16_io\\read\\nation.csv";
     public static void read2() {
-        final String filePath = "E:\\A0523I1_Nguyen_Quoc_Thong_Module2\\module_2\\OOP\\src\\ss16_io\\read\\nation.csv";
-        File file = new File(filePath);
+
+        File file = new File(FILE_PATH);
 
         try {
 //            FileReader fileReader= new FileReader(file);
