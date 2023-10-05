@@ -2,7 +2,7 @@ package ss15_exception;
 
 import java.util.Scanner;
 
-public class CalculationExample {
+public class    CalculationExample {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Hãy nhập x: ");

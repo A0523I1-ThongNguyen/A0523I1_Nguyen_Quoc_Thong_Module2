@@ -9,6 +9,7 @@ public class Minh_Hoa_Sap_Xep_Chen {
             int size = scanner.nextInt();
             int[] list = new int[size];
             System.out.println("Enter " + list.length + " values:");
+
             for (int i = 0; i < list.length; i++) {
                 list[i] = scanner.nextInt();
             }
@@ -25,7 +26,7 @@ public class Minh_Hoa_Sap_Xep_Chen {
                 int key = list[i];// luu rieng gia tri hien tai vao key
                 int j;
                 for (j = i - 1; j >= 0 && list[j] > key; j--) {
-                    System.out.println(list[j+1] + " Swap " +list[j]);
+                   System.out.println(list[j+1] + " Swap " +list[j]);
                     list[j + 1] = list[j];//j+1 = i (gia tri hien tai)
                 }
                 list[j + 1] = key;//gán giá trị của biến key vào vị trí hiện tại (vị trí của phần tử đang được xét)

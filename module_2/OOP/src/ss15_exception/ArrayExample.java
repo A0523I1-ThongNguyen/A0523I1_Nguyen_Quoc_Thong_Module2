@@ -8,7 +8,7 @@ public class ArrayExample {
         Scanner scanner = new Scanner(System.in);
         ArrayExample obj = new ArrayExample();
         int[] arrayMain = obj.methodRandom();
-        System.out.println("Nhap chi so muon tra ve");
+        System.out.println("\n Nhap chi so muon tra ve");
        try {
            Integer vitri =Integer.parseInt(scanner.nextLine());
            System.out.println("Vi tri: " + vitri + " Co gia tri : " +arrayMain[vitri]);

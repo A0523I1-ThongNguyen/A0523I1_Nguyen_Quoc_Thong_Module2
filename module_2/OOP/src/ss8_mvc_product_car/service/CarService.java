@@ -1,6 +1,6 @@
 package ss8_mvc_product_car.service;
 
-import ss8_MVC.model.Customer;
+
 import ss8_mvc_product_car.model.Car;
 import ss8_mvc_product_car.repository.CarRepository;
 import ss8_mvc_product_car.repository.ICarRepository;
