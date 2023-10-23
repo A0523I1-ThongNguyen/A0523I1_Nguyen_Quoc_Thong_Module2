@@ -1,4 +1,4 @@
 package case_study.service;
 
-public interface IBookingService {
+public interface IBookingService extends IService {
 }

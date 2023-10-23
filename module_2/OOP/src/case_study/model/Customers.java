@@ -1,85 +1,24 @@
 package case_study.model;
 
-public class Customers {
-    private String maKH;
-    private String fullName;
-    private String date;
-    private String gioitinh;
-    private String cmnd;
-    private String phone;
-    private String email;
+import java.util.ArrayList;
+
+public class Customers extends Person {
+
     private String levelKhach;
     private String address;
 
-    public Customers(String maKH, String fullName, String date, String gioitinh, String cmnd, String phone, String email, String levelKhach, String address) {
-        this.maKH = maKH;
-        this.fullName = fullName;
-        this.date = date;
-        this.gioitinh = gioitinh;
-        this.cmnd = cmnd;
-        this.phone = phone;
-        this.email = email;
+    public Customers(String id, String fullName, String date, String gioitinh, String cmnd, String phone, String email, String levelKhach, String address) {
+        super(id, fullName, date, gioitinh, cmnd, phone, email);
+        this.levelKhach = levelKhach;
+        this.address = address;
+    }
+
+    public Customers(String levelKhach, String address) {
         this.levelKhach = levelKhach;
         this.address = address;
     }
     public Customers(){
 
-    }
-
-    public String getMaKH() {
-        return maKH;
-    }
-
-    public void setMaKH(String maKH) {
-        this.maKH = maKH;
-    }
-
-    public String getFullName() {
-        return fullName;
-    }
-
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
-
-    public String getDate() {
-        return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
-    }
-
-    public String getGioitinh() {
-        return gioitinh;
-    }
-
-    public void setGioitinh(String gioitinh) {
-        this.gioitinh = gioitinh;
-    }
-
-    public String getCmnd() {
-        return cmnd;
-    }
-
-    public void setCmnd(String cmnd) {
-        this.cmnd = cmnd;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public String getLevelKhach() {
@@ -98,17 +37,11 @@ public class Customers {
         this.address = address;
     }
 
+
     @Override
     public String toString() {
-        return "Customer{" +
-                "maKH=" + maKH +
-                ", fullName='" + fullName + '\'' +
-                ", date='" + date + '\'' +
-                ", gioitinh='" + gioitinh + '\'' +
-                ", cmnd='" + cmnd + '\'' +
-                ", phone='" + phone + '\'' +
-                ", email='" + email + '\'' +
-                ", levelKhach='" + levelKhach + '\'' +
+        return "Customers{" +getId() + ", " + getFullName() + ", " +getDate()+", "+ getGioitinh() +", "+getCmnd()+","+getPhone()+","+getEmail()+", "+
+                "levelKhach='" + levelKhach + '\'' +
                 ", address='" + address + '\'' +
                 '}';
     }

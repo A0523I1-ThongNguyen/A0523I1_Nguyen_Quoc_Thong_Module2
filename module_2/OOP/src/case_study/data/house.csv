@@ -1,0 +1,4 @@
+DichVu{Ma dich vu='Ho1'TenDichVu='dv1', dienTichSuDung='50.4', chiPhiThue='30.5', soLuongNguoiToiDa='5', kieuThue='Thang'}House{tieuChuanPhong='Vip', soTang=2, uses=0}
+DichVu{Ma dich vu='Ho2'TenDichVu='dv2', dienTichSuDung='20.5', chiPhiThue='30.5', soLuongNguoiToiDa='5', kieuThue='Thang'}House{tieuChuanPhong='Vip', soTang=2, uses=0}
+DichVu{Ma dich vu='Ho3'TenDichVu='dv3', dienTichSuDung='10.5', chiPhiThue='30.5', soLuongNguoiToiDa='5', kieuThue='Thang'}House{tieuChuanPhong='Vip', soTang=2, uses=0}
+DichVu{Ma dich vu='SVHO-1222'TenDichVu='vip', dienTichSuDung='122.0', chiPhiThue='23.0', soLuongNguoiToiDa='5', kieuThue='Thuê theo tháng'}House{tieuChuanPhong='AB2', soTang=7, uses=0}

@@ -35,7 +35,11 @@ public class CopyFile {
 
     {
         BufferedReader bufferedReader = new BufferedReader(new FileReader(fileS));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileT));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileT,false));
+        /* true` được sử dụng để cho phép ghi tiếp vào cuối file thay vì ghi đè lên nội dung có sẵn trong file.
+        Điều này có nghĩa là khi bạn chạy chương trình lần đầu tiên, dữ liệu sẽ được ghi vào cuối file,
+        và khi bạn chạy chương trình lần thứ hai, dữ liệu sẽ được ghi vào cuối file một lần nữa.
+           Do đó, nội dung của file đích (`fileT`) sẽ được sao chép hai lần*/
         String line = "";
         int kiTu = 0;
         while ((line = bufferedReader.readLine()) != null) {

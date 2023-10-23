@@ -5,9 +5,9 @@ import case_study.model.Employee;
 
 import java.util.ArrayList;
 
-public interface ICustomersRepository {
-    ArrayList<Customers> displayCustomers();
+public interface ICustomersRepository extends IRepository  {
+    ArrayList<Customers> readCustomers();
 
-    ArrayList<Customers> writeCustomers(ArrayList<Customers> employees, boolean append);
+    ArrayList<Customers> writeCustomers(String filePAth,ArrayList<Customers> employees, boolean append);
     int getSize();
 }

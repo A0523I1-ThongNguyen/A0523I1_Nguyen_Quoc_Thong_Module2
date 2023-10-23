@@ -1,19 +1,32 @@
 package case_study.model;
 
-public class Villa extends DichVu {
+public class Villa extends Facility {
     private String tieuChuanPhong;
     private double dienTichHo;
     private int soTang;
+    int uses;
 
     public Villa(){
 
     }
 
-    public Villa(String maDichVu, Double dienTichSuDung, String chiPhiThue, int soLuongNguoiToiDa, String kieuThue, String tieuChuanPhong, double dienTichHo, int soTang) {
-        super(maDichVu, dienTichSuDung, chiPhiThue, soLuongNguoiToiDa, kieuThue);
+    public Villa(int size, String codeID, String nameDV, Double dt, double cp, int peopleMax, String kieuThue, String tieuChuanRoom, Double dtHoBoi, int soTang,int use) {
+    }
+
+    public int getUses() {
+        return uses;
+    }
+
+    public void setUses(int uses) {
+        this.uses = uses;
+    }
+
+    public Villa(String codeDichVu, String nameDichVu, Double dienTichSuDung, Double chiPhiThue, int soLuongNguoiToiDa, String kieuThue, String tieuChuanPhong, double dienTichHo, int soTang,int use) {
+        super(codeDichVu, nameDichVu, dienTichSuDung, chiPhiThue, soLuongNguoiToiDa, kieuThue);
         this.tieuChuanPhong = tieuChuanPhong;
         this.dienTichHo = dienTichHo;
         this.soTang = soTang;
+        this.uses = use;
     }
 
     public Villa(String tieuChuanPhong, double dienTichHo, int soTang) {
@@ -48,10 +61,10 @@ public class Villa extends DichVu {
 
     @Override
     public String toString() {
-        return "Villa{" +
+        return super.toString()+ "Villa{" +
                 "tieuChuanPhong='" + tieuChuanPhong + '\'' +
                 ", dienTichHo=" + dienTichHo +
                 ", soTang=" + soTang +
-                '}';
+                ", so lan su dung: =" + uses + '}';
     }
 }
